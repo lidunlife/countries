@@ -82,17 +82,19 @@ input {
 
 
 }
-.flag p{
+
+.flag p {
     font-family: Nunito Sans;
-font-size: 14px;
-font-weight: 300;
-line-height: 16px;
-letter-spacing: 0px;
-text-align: left;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
 
 
 
 }
+
 .info {
     padding-left: 24px;
     padding-top: 16px;
@@ -120,15 +122,18 @@ text-align: left;
         padding: 24px 16px;
         background: #202C36;
     }
-    .cards{
+
+    .cards {
         display: flex;
         flex-wrap: wrap;
         padding-top: 120px;
         width: 90%;
-       margin: 0 auto~~;
+        margin: 0 auto;
         height: 100%;
+        justify-content: center;
     }
-    .flag{
+
+    .flag {
         width: 264px;
         height: 336px;
         padding-top: 40px;

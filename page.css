@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h3 {
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.btn-back {
+    width: 136px;
+    height: 40px;
+    font-family: Nunito Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0px;
+    background-color: #2B3844;
+    border-style: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+main a{
+    text-decoration: none;
+}
+
+.section-one {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0;
+    align-items: center;
+    font-family: Nunito Sans;
+    
+}
+
+p {
+    font-size: 16px;
+    line-height: 40px;
+    /* margin-top: 50px; */
+}
+
+.aaa {
+    height: 100%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.right {
+    display: flex;
+    height: 100%;
+    min-width: 300px;
+    display: flex;
+
+    justify-content: center;
+    gap: 50px;
+}
+
+.texts {
+    display: flex;
+    gap: 100px;
+}
+
+.textss button {
+    background: rgba(43, 56, 68, 1);
+    border-radius: 20px;
+}
+.texts-left p{
+    color: gray;
+}
+strong{
+    color: white;
+}
+.texts-right p{
+    color: gray;
+}
+
+.text-footer {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 350px; */
+    flex-direction: column;
+}
+
+.left h3 {
+    font-family: Nunito Sans;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 44px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+.textss{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 68px;
+}
+.textss button{
+    width: 116px;
+    border-radius: 0%;
+    height: 28px;
+    border-style: none;
+    color: white;
+}
+@media (max-width:480px) {
+    .section-one {
+        flex-direction: column;
+        /* align-items: center; */
+    }
+
+    .img {
+        width: 100%;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .texts {
+        flex-direction: column;
+    }
+    .btn-back{
+        width: 104px;
+        height: 32px;
+       margin-top: 22px;
+       margin-left: 18px;
+    }
+    .texts-left p{
+        padding-top: 6px;
+        margin-top: 16px;
+    }
+    .texts-right{
+        margin-top: 32px;
+    }
+    .texts-right p{
+        padding-top: 22px;
+    }
+    .textss{
+        display: flex;
+        gap: 10px;
+    }
+}
